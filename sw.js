@@ -2,8 +2,8 @@ var cacheName = 'countdown';
 
 var filesToCache = [
     '/',
-    '/index.html',
-    '/timer.png',
+    '/public/index.html',
+    '/public/timer.png',
     '/src/App.css',
     '/src/App.jsx',
     '/src/Clock.jsx',
