@@ -1,16 +1,12 @@
 var cacheName = 'countdown';
 
 var filesToCache = [
-    '/',
-    '/countdown/public/index.html',
-    '/countdown/public/timer.png',
-    '/countdown/src/App.css',
-    '/countdown/src/App.jsx',
-    '/countdown/src/Clock.jsx',
-    '/countdown/src/index.css',
-    '/countdown/src/index.js',
-    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
-    '/countdown/static/js/bundle.js'
+    '/countdown/',
+    '/countdown/index.html',
+    '/countdown/timer.png',
+    '/countdown/static/css/main.ff902b96.css',
+    '/countdown/static/js/main.eb8bca09.js',
+    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
 ];
 
 self.addEventListener('install',function(event){
